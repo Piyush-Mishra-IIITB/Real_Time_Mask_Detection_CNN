@@ -7,11 +7,11 @@ import gdown
 
 # ---------- Download model ----------
 file_id = "1AvG7P-E2eoVQOQ4sMV4zWZfEEK9qDFY0"
-url = f"https://drive.google.com/uc?id={file_id}"
+url = f"https://drive.google.com/file/d/{file_id}/view?usp=sharing"
 output = "mask_model.h5"
 
 if not os.path.exists(output):
-    gdown.download(url, output, quiet=False)
+    gdown.download(url, output, quiet=False, fuzzy=True)
 
 model = load_model(output)
 
