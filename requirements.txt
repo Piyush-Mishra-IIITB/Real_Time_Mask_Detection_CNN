@@ -1,0 +1,9 @@
+pandas
+opencv-python
+numpy
+matplotlib
+
+tensorflow
+streamlit
+scikit-learn
+gdown
