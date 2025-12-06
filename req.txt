@@ -1,8 +1,0 @@
-pandas
-numpy
-matplotlib
-opencv-python
-tensorflow
-streamlit
-scikit-learn
-gdown
